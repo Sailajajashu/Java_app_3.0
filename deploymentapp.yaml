@@ -16,4 +16,4 @@ spec:
       - name: sample-app
         image: my-sample-app:1.0
         ports:
-        - containerPort: 8080
+        - containerPort: 8000
