@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: sample-app-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: sample-app
   ports:
