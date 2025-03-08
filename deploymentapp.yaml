@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: my-sample-app:1.0
+        image: sailajajaswi/dockerhub:1.0
         ports:
         - containerPort: 8000
