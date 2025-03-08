@@ -14,9 +14,9 @@ spec:
     spec:
       containers:
       - name: myjavaapp
-        image: 600735812827.dkr.ecr.us-west-1.amazonaws.com/javasession2:latest
+        image: sailajajaswi/dockerhub:app1
         ports:
-        - containerPort: 8080
+        - containerPort: 8011
 
 ---
 apiVersion: v1
@@ -29,5 +29,5 @@ spec:
   ports:
   - name: http
     port: 80
-    targetPort: 8080
+    targetPort: 8011
   type: LoadBalancer
